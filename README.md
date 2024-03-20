@@ -231,7 +231,7 @@ One master area occupying the full height of the available area with a stack are
 
 *ratio* is the proportion of the available area occupied by master.
 
-*count* is the number of evenly evenly stacked views in the master area.
+*count* is the number of evenly stacked views in the master area.
 
 Left: `│ ├─┤` when *count* \> 0 otherwise `│├──┤`
 
@@ -251,7 +251,7 @@ Master is centred when there are left and right stacks, otherwise it expands int
 
 ### Monocle
 
-Only one view is focused, occupying all of the available space.
+Only one view is focused, occupying all the available space.
 
 `│ n │` with `n` showing number of views only when greater than 1.
 
@@ -418,7 +418,7 @@ You can “shuffle” views through master, focusing the new master using:
 
 ### Name Does Not Always Update
 
-The layout name will not update when there are no views for the selected tags. This can occurs when setting a tag with no views or changing the layout for a tag with no views.
+The layout name will not update when there are no views for the selected tags. This can occur when setting a tag with no views or changing the layout for a tag with no views.
 
 This may be resolved with a river enhancement: [\#1004](https://github.com/riverwm/river/issues/1002)
 
@@ -439,4 +439,4 @@ Please create an [issue](https://github.com/alex-courtis/wideriver/issues).
 
 ### Contributions
 
-[CONTRIBUTING.md](doc/CONTRIBUTING.md) is most gratefully appreciated.
+[CONTRIBUTING.md](CONTRIBUTING.md) is most gratefully appreciated.
